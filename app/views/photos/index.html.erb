@@ -4,9 +4,10 @@
 
     <% @photos.each do |photo| %>
       
-        <%= image_tag photo.url, style: 'max-width: 800px' %>
+        <%= image_tag photo.url, style: 'max-width: 640px' %>
         <%= photo.caption %>
         <%= photo.user %>
+        
         <%= link_to 'Show', photo %>
         <%= link_to 'Edit', edit_photo_path(photo) %>
         <%= link_to 'Destroy', photo, method: :delete, data: { confirm: 'Are you sure?' } %>
