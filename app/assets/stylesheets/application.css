@@ -54,3 +54,36 @@ h1 {
     font-family: 'Arimo', sans-serif;
     
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 30px;
+    max-width: 300px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    font-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+textarea { font-size: 25px; }s
